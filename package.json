@@ -1,0 +1,21 @@
+{
+  "name": "@itreg/string-toolkit",
+  "version": "1.0.0",
+  "description": "Simple string manipulation utilities",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "string",
+    "utility",
+    "snake-case",
+    "kebab-case"
+  ],
+  "author": "your name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
