@@ -1,6 +1,6 @@
 {
   "name": "@itreg/string-toolkit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple string manipulation utilities",
   "main": "src/index.js",
   "type": "commonjs",
