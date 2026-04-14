@@ -1,7 +1,7 @@
 # @itreg/string-toolkit
 
 A lightweight JavaScript utility library for simple and consistent string case transformations.
-Currently supports conversion to `snake_case` and `kebab-case`.
+Supports conversion to `snake_case` and `kebab-case`.
 
 ---
 
@@ -91,11 +91,17 @@ npm test
 
 This project uses **Jest** for unit testing.
 
-Example test:
+Example tests:
 
 ```javascript
+const { toSnakeCase, toKebabCase } = require("../src");
+
 test("converts string to snake_case", () => {
   expect(toSnakeCase("Hello World")).toBe("hello_world");
+});
+
+test("converts string to kebab-case", () => {
+  expect(toKebabCase("Hello World")).toBe("hello-world");
 });
 ```
 
@@ -107,8 +113,8 @@ test("converts string to snake_case", () => {
 string-toolkit/
 ├── src/
 ├── tests/
-├── README.md
 ├── package.json
+├── README.md
 ```
 
 ---
